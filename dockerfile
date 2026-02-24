@@ -3,5 +3,5 @@ FROM python:3.14.3-slim
 WORKDIR /app
 COPY . /app
 RUN pip install flask
-EXPOSE 5000
+EXPOSE 3000
 CMD ["python","app.py"]
